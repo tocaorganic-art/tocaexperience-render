@@ -290,7 +290,7 @@ function PagesContent() {
 
 export default function Pages() {
     return (
-        <Router>
+        <Router basename="/">
             <PagesContent />
         </Router>
     );
